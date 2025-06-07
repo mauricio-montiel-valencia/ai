@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/23.0.1" fx:controller="com.mycompany.programation2_homework.Winner_CertificateController">
+   <children>
+      <VBox prefHeight="410.0" prefWidth="650.0">
+         <children>
+            <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" VBox.vgrow="ALWAYS">
+               <children>
+                  <ImageView fx:id="ID_IMG_CERTIFICATE" fitHeight="98.0" fitWidth="200.0" layoutX="220.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true" />
+                  <Label layoutX="264.0" layoutY="144.0" text="CONGRATULATIONS" />
+                  <TextArea fx:id="ID_NAME_CERTIFICATE" layoutX="20.0" layoutY="181.0" prefHeight="18.0" prefWidth="200.0" />
+                  <TextArea fx:id="ID_INF_TOUR_CERTIFICATE" layoutX="420.0" layoutY="181.0" prefHeight="186.0" prefWidth="200.0" />
+                  <TextArea fx:id="ID_PERFORMANCE_CERTIFICATE" layoutX="20.0" layoutY="236.0" prefHeight="110.0" prefWidth="200.0" />
+               </children>
+            </AnchorPane>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

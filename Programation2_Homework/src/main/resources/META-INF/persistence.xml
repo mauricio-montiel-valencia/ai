@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.2" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence           http://xmlns.jcp.org/xml/ns/persistence/persistence_2_2.xsd">
+  <persistence-unit name="com.mycompany_Programation2_Homework_jar_1.0-SNAPSHOTPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>com.mycompany.programation2_homework.Mapeo.BallSportRegister</class>
+    <class>com.mycompany.programation2_homework.Mapeo.Tournament</class>
+    <class>com.mycompany.programation2_homework.Mapeo.Positions</class>
+    <class>com.mycompany.programation2_homework.Mapeo.GeneralInformationTeam</class>
+    <class>com.mycompany.programation2_homework.Mapeo.ConfrontationRound</class>
+    <class>com.mycompany.programation2_homework.Mapeo.TournamentStadistics</class>
+    <class>com.mycompany.programation2_homework.Mapeo.GlobalRanking</class>
+    <class>com.mycompany.programation2_homework.Mapeo.TeamRegister</class>
+    <class>com.mycompany.programation2_homework.Mapeo.Confrontations</class>
+    <class>com.mycompany.programation2_homework.Mapeo.TeamInscription</class>
+    <class>com.mycompany.programation2_homework.Mapeo.GeneralStadistics</class>
+    <class>com.mycompany.programation2_homework.Mapeo.WinnerCertification</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:oracle:thin:@192.168.192.189:1521:XE"/>
+      <property name="javax.persistence.jdbc.user" value="MMONTIELV"/>
+      <property name="javax.persistence.jdbc.driver" value="oracle.jdbc.OracleDriver"/>
+      <property name="javax.persistence.jdbc.password" value="una2025"/>
+    </properties>
+  </persistence-unit>
+</persistence>

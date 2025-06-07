@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/23.0.1" fx:controller="com.mycompany.programation2_homework.Tournament_SpecsController">
+   <children>
+      <VBox prefHeight="410.0" prefWidth="650.0">
+         <children>
+            <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" VBox.vgrow="ALWAYS">
+               <children>
+                  <Label layoutX="250.0" layoutY="28.0" text="Tournament Specifications" />
+                  <TextField fx:id="ID_SPORT_T_SPECS" layoutX="246.0" layoutY="87.0" />
+                  <TextField fx:id="ID_TEAMAMOUNT_T_SPECS" layoutX="246.0" layoutY="139.0" />
+                  <TextField fx:id="ID_TIME_T_SPECS" layoutX="245.0" layoutY="187.0" />
+                  <Button fx:id="ID_COMPLETE_T_SPECS" layoutX="286.0" layoutY="232.0" mnemonicParsing="false" text="Complete" />
+                  <Label layoutX="197.0" layoutY="91.0" text="Sport" />
+                  <Label layoutX="159.0" layoutY="143.0" text="Team Amount" />
+                  <Label layoutX="197.0" layoutY="191.0" text="Time" />
+                  <Label layoutX="396.0" layoutY="191.0" text="s" />
+                  <Button fx:id="ID_NEXT_T_SPECIFICATIONS" layoutX="574.0" layoutY="361.0" mnemonicParsing="false" text="Next" />
+               </children>
+            </AnchorPane>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

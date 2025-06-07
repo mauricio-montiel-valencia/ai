@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.programation2_homework.GraphicMatchController">
+   <children>
+      <ImageView fx:id="IMGTEAM1" fitHeight="123.0" fitWidth="122.0" layoutX="39.0" layoutY="171.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../../OneDrive/Imágenes/Capturas%20de%20pantalla/Captura%20de%20pantalla%202024-09-21%20100746.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="IMGTEAM2" fitHeight="112.0" fitWidth="172.0" layoutX="397.0" layoutY="153.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../../OneDrive/Imágenes/Capturas%20de%20pantalla/Captura%20de%20pantalla%202025-03-18%20100409.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="IMGBALL" fitHeight="107.0" fitWidth="165.0" layoutX="222.0" layoutY="260.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../../Downloads/Soccerbal.svg.png" />
+         </image>
+      </ImageView>
+      <AnchorPane fx:id="id_anchorpane" prefHeight="402.0" prefWidth="600.0" />
+   </children>
+</AnchorPane>
